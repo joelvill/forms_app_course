@@ -20,6 +20,7 @@ class RegisterCubit extends Cubit<RegisterFormState> {
       ),
     );
 
+    // ignore: avoid_print
     print('Submit: $state');
   }
 
